@@ -10,7 +10,6 @@ def random_5_letter_word():
         'length': 5,
         'lang': 'en'
     }
-
     try:
         response = requests.get(base_url, params=params)
         data = response.json()
